@@ -1,0 +1,5 @@
+# Take diameter as a input and calculate the area of a circle
+diameter =int( input("Inter the value of diameter :"))
+radius = diameter/2
+area = 3.14* (radius ** 2)
+print("Area of the circle is",area)
